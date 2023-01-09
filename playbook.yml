@@ -1,0 +1,9 @@
+---
+# playbook.yml
+- name: 'Provision Image'
+  hosts: all
+  remote_user: ubuntu
+  become: true
+
+  roles:
+    - webserver
