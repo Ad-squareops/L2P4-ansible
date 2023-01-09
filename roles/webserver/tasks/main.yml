@@ -1,0 +1,4 @@
+---
+- name: install nginx web server
+  apt:
+    name: nginx
